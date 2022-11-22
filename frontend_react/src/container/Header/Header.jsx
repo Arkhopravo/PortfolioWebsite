@@ -19,9 +19,9 @@ const scaleVariants = {
 const Header = () => {
   return (
     <div
-      className="app__header app__flex"
+      className="header-backgroud"
     >
-      <motion.div
+      {/* <motion.div
          whileInView={{x: [-100, 0], opacity: [0,1]}}
          transition={{ duration:0.5}}
          className="app__header-info"
@@ -71,7 +71,10 @@ const Header = () => {
           </div>
         ))}
 
-      </motion.div>
+      </motion.div> */}
+     <img src="images\1.png" className='background-cover'/>
+      <img src="images/Login Page Mobile Prototype.png" alt="" className='portfloio-image-mobile'/>
+     <img src="images\2.png" className='background-cover'/>
     </div>
   )
 }
